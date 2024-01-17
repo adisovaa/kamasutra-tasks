@@ -11,22 +11,9 @@ export const HW3 = () => {
         setCurrentText(e.currentTarget.value);
     };
 
-    // const addTask = () => {
-    //     if (newTaskTitle.trim() !== '') {
-    //         props.addTask(newTaskTitle.trim())
-    //         setNewTaskTitle('')
-    //     } else {
-    //         setError('Field is required')
-    //     }
-    // }
-
     const handleSave = () => {
-        setTexts([''])
-        setCurrentText('')
-
-
-        // ЗАСЕТАТЬ БЫ ТЕКСТ В texts И НЕ ПОТЕРЯТЬ НАПУТСТВИЕ ИЗ ПРОШЛОГО ВЕКА)
-        // А ЗАТЕМ УБРАТЬ ЗА СОБОЙ В currentText
+        setTexts(prevTexts => [...prevTexts, currentText]);
+        setCurrentText('');
     };
 
     return (
