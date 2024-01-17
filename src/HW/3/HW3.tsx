@@ -1,9 +1,9 @@
-import React, { useState, ChangeEvent } from 'react';
+import React, {useState, ChangeEvent} from 'react';
 
 export const HW3 = () => {
     const [currentText, setCurrentText] = useState<string>('');
     const [texts, setTexts] = useState<string[]>([
-        'То, что вы делаете по ночам, то и делает вас богатым. (Аль Капоне)',
+        'What you do at night is what makes you rich. (Al Capone)',
     ]);
 
     const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
@@ -20,7 +20,7 @@ export const HW3 = () => {
             {currentText ? (
                 <h1 id={'hw03-text'}>{currentText}</h1>
             ) : (
-                <h1 id={'hw03-default-text'}>Здесь появится новое дело</h1>
+                <h1 id={'hw03-default-text'}>New Tasks</h1>
             )}
 
             <input
@@ -31,10 +31,10 @@ export const HW3 = () => {
             />
 
             <button id={'hw03-button'} onClick={handleSave}>
-                Сохранить
+                Save
             </button>
 
-            <h1 style={{ marginTop: '50px' }}>СПИСОК ДЕЛ НА ДЕНЬ:</h1>
+            <h1 style={{marginTop: '50px'}}>ToDoList:</h1>
 
             <ol id={'hw03-tasks'}>
                 {texts.map((el, index) => (
