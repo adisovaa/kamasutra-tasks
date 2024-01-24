@@ -9,7 +9,6 @@ export const HW4 = () => {
     const [texts, setTexts] = useState<string[]>([
         'Some words',
     ])
-
     const handleSave = () => {
         setTexts([currentText, ...texts])
         setCurrentText('')
