@@ -20,7 +20,7 @@ export const HW3 = () => {
             {currentText ? (
                 <h1 id={'hw03-text'}>{currentText}</h1>
             ) : (
-                <h1 id={'hw03-default-text'}>New Tasks</h1>
+                <h1 id={'hw03-default-text'}>Здесь появится новое дело</h1>
             )}
 
             <input
