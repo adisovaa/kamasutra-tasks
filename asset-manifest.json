@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kamasutra-tasks/static/css/main.af2f1d43.css",
-    "main.js": "/kamasutra-tasks/static/js/main.ecabc708.js",
+    "main.js": "/kamasutra-tasks/static/js/main.88ba64c4.js",
     "static/js/787.177e23c2.chunk.js": "/kamasutra-tasks/static/js/787.177e23c2.chunk.js",
     "index.html": "/kamasutra-tasks/index.html",
     "main.af2f1d43.css.map": "/kamasutra-tasks/static/css/main.af2f1d43.css.map",
-    "main.ecabc708.js.map": "/kamasutra-tasks/static/js/main.ecabc708.js.map",
+    "main.88ba64c4.js.map": "/kamasutra-tasks/static/js/main.88ba64c4.js.map",
     "787.177e23c2.chunk.js.map": "/kamasutra-tasks/static/js/787.177e23c2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af2f1d43.css",
-    "static/js/main.ecabc708.js"
+    "static/js/main.88ba64c4.js"
   ]
 }
